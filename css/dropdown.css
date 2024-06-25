@@ -1,0 +1,25 @@
+.right ul{
+    list-style: none;
+    display: flex;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100px;
+    background-color: #05295f;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    height: 70px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+@media (width < 600px){
+    ul li ul.dropdown{
+        width: 90px;
+
+    }
+}

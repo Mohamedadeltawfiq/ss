@@ -1,0 +1,60 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+.about{
+    width: 25rem;
+    color: #064199;
+}
+.about h2{
+    font-weight: 700;
+    color: #063275;
+    font-size: 2rem;
+}
+.about p{
+    margin: 10px;
+    font-size: small;
+    font-weight: 650;
+}
+.about button{
+    background: linear-gradient(90deg,#006aff, #052049);
+    border: none;
+    padding: 2px 8px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+.about button:active{
+    scale: 0.8;
+}
+.about button:hover{
+    background: linear-gradient(90deg,#011531, #0066ff);
+
+}
+.video video{
+    width: 200px;
+    border-radius: 6px;
+}
+
+
+
+@media (width < 600px){
+    .about h2{
+        font-size: 1.2rem;
+    }
+    .about p{
+        font-size: x-small;
+    }
+    .smart-img i{
+        font-size: 100px;
+
+    }
+    .video video{
+        width: 130px;
+    }
+
+}
